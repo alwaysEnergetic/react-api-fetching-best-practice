@@ -1,0 +1,25 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "settings": {
+      "import/resolver": "webpack",
+    },
+    "plugins": ["react"],
+    "globals": {
+      "__DEV__": false,
+      "__ACC__": false,
+      "__PROD__": false,
+      "__CLIENT__": false,
+      "__SERVER__": false
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "jest": true
+    },
+    "rules": {
+      "react/jsx-filename-extension": 0,
+      "jsx-a11y/href-no-hash": 0,
+      "linebreak-style": 0
+    }
+  }
